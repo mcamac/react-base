@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "kensho",
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ]
+}
