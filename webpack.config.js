@@ -11,8 +11,12 @@ module.exports = {
     filename: '[name].js',
     publicPath: '/',
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js'],
+  },
   module: {
     rules: [
+      {test: /\.tsx?$/, loader: 'ts-loader'},
       {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
       {test: /\.(png|svg)$/, loader: 'file-loader'},
       {
