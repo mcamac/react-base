@@ -20,6 +20,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "fork-ts-checker-webpack-plugin": "^0.4.1",
     "prettier": "^1.11.1",
     "react-hot-loader": "^4.0.1",
     "style-loader": "^0.20.3",
