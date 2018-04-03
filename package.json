@@ -25,7 +25,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --history-api-fallback --mode development",
+    "dev": "webpack-dev-server --hot --history-api-fallback --mode development",
     "build": "NODE_ENV=production webpack --mode production"
   }
 }
